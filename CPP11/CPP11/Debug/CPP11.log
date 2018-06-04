@@ -1,0 +1,17 @@
+﻿Build started 5/31/2018 11:27:38 AM.
+     1>Project "C:\Projects\CPP11\CPP11\CPP11\CPP11.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Basic.cpp main.cpp
+         main.cpp
+         Basic.cpp
+     1>c:\projects\cpp11\cpp11\cpp11\basic.cpp(30): warning C4930: 'sampleClass c1(void)': prototyped function not called (was a variable definition intended?)
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Projects\CPP11\CPP11\Debug\CPP11.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win32" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Projects\CPP11\CPP11\Debug\CPP11.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Projects\CPP11\CPP11\Debug\CPP11.lib" /MACHINE:X86 Debug\Basic.obj
+         Debug\main.obj
+         CPP11.vcxproj -> C:\Projects\CPP11\CPP11\Debug\CPP11.exe
+     1>Done Building Project "C:\Projects\CPP11\CPP11\CPP11\CPP11.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.51

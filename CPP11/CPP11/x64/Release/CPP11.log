@@ -1,0 +1,17 @@
+﻿Build started 6/3/2018 8:33:39 PM.
+     1>Project "C:\Projects\CPP11\CPP11\CPP11\CPP11.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W1 /WX- /O2 /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt Enumeration.cpp
+         Enumeration.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Projects\CPP11\CPP11\x64\Release\CPP11.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:\Projects\CPP11\CPP11\x64\Release\CPP11.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Projects\CPP11\CPP11\x64\Release\CPP11.lib" /MACHINE:X64 x64\Release\Basic.obj
+         x64\Release\Enumeration.obj
+         x64\Release\Iterators.obj
+         x64\Release\main.obj
+         x64\Release\NewTypes.obj
+         CPP11.vcxproj -> C:\Projects\CPP11\CPP11\x64\Release\CPP11.exe
+     1>Done Building Project "C:\Projects\CPP11\CPP11\CPP11\CPP11.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.98

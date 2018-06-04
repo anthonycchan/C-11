@@ -5,6 +5,7 @@ using namespace std;
 
 void Basic::run()
 {
+	cout << "##### BASIC #####" << std::endl;
 	//
 	// auto keyword
 	//

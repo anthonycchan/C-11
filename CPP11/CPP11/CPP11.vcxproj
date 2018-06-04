@@ -91,10 +91,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Basic.cpp" />
+    <ClCompile Include="Enumeration.cpp" />
+    <ClCompile Include="Iterators.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="NewTypes.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Basic.h" />
+    <ClInclude Include="Enumeration.h" />
+    <ClInclude Include="Iterators.h" />
+    <ClInclude Include="NewTypes.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
